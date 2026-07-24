@@ -1,8 +1,13 @@
 aid: brigit
 name: Brigit
-description: Brigit is a company surfaced as a portfolio company of canaan-partners, dcm-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Brigit is a consumer financial technology company whose mobile app helps people manage
+  everyday money with instant cash advances of up to $500 with no credit check, interest, or late fees,
+  a Credit Builder account, and a Finance Helper for budgeting, spending analysis, bill tracking, and
+  overdraft prediction. The app also bundles identity-theft protection and a deals-and-offers marketplace,
+  and is offered on paid monthly subscription tiers. Brigit reports more than 12 million users. This
+  API Evangelist profile is a company lead surfaced from venture-capital portfolios (Canaan Partners,
+  DCM Ventures, Lightspeed Venture Partners); Brigit is a direct-to-consumer app and does not currently
+  publish a public developer API, so this record is enriched at the identity and web-property level.
 url: https://raw.githubusercontent.com/api-evangelist/brigit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +17,31 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.hellobrigit.com/wp-content/uploads/2023/09/BannerBackground-Credit-2.png
 tags:
 - Company
+- Financial Services
+- Fintech
+- Consumer Finance
+- Cash Advance
+- Credit Building
+- Personal Finance
+- Budgeting
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brigit-domain-security.yml
 - type: Website
   url: https://hellobrigit.com/
+- type: About
+  url: https://www.hellobrigit.com/about
+- type: Support
+  url: https://help.hellobrigit.com/hc/en-us
+- type: Blog
+  url: https://www.hellobrigit.com/learn
+- type: SignUp
+  url: https://app.hellobrigit.com/signup/email
+- type: Login
+  url: https://app.hellobrigit.com/login
+- type: Pricing
+  url: https://help.hellobrigit.com/hc/en-us/articles/360034832191
+- type: TermsOfService
+  url: https://www.hellobrigit.com/terms
+- type: PrivacyPolicy
+  url: https://www.hellobrigit.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
