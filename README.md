@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brigit is a company surfaced as a portfolio company of canaan-partners, dcm-ventures, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Brigit is a consumer financial technology company whose mobile app helps people manage everyday money with instant cash advances of up to $500 with no credit check, interest, or late fees, a Credit Builder account, and a Finance Helper for budgeting, spending analysis, bill tracking, and overdraft prediction. The app also bundles identity-theft protection and a deals-and-offers marketplace, and is offered on paid monthly subscription tiers. Brigit reports more than 12 million users. This API Evangelist profile is a company lead surfaced from venture-capital portfolios (Canaan Partners, DCM Ventures, Lightspeed Venture Partners); Brigit is a direct-to-consumer app and does not currently publish a public developer API, so this record is enriched at the identity and web-property level.
 
-Backed by: canaan-partners, dcm-ventures, lightspeed-venture-partners — https://hellobrigit.com/
+**Areas:** Company · Financial Services · Fintech · Consumer Finance · Cash Advance · Credit Building · Personal Finance · Budgeting · Mobile App
+
+## Brigit on APIs.io
+
+Everything profiled for Brigit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brigit/](https://apis.io/providers/brigit/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Brigit Domain Security](https://apis.io/security/brigit/brigit-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hellobrigit.com/)
+- [Pricing](https://help.hellobrigit.com/hc/en-us/articles/360034832191)
+- [Sign up](https://app.hellobrigit.com/signup/email)
+- [Support](https://help.hellobrigit.com/hc/en-us)
+- [Blog](https://www.hellobrigit.com/learn)
+- [Terms of service](https://www.hellobrigit.com/terms)
+- [Privacy policy](https://www.hellobrigit.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brigit/](https://apis.io/providers/brigit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brigit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brigit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
